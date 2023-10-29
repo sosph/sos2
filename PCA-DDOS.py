@@ -65,7 +65,7 @@ def main():
  |___/ |___/  \___/  |___/  
  """
     author = r"""
-		MR.X4ND3R
+		SOS.ph
     """
     prints(start_color, end_color, banner)
     prints(end_color, start_color, author) 
@@ -79,7 +79,7 @@ def main():
     print("\n")                            
                                                                  
     while True:
-        cnc = input(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"root"+Color.LB+"@"+Color.LG+"Xander"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+        cnc = input(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"root"+Color.LB+"@"+Color.LG+"SOSph"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
         if "HTTP-REQ" in cnc:
             try:
                 url = cnc.split()[1]
@@ -121,7 +121,7 @@ def main():
             except IndexError:
                 pass
                 
-if author == "Xander":
+if author == "SOSph":
     main()
 else:
     string.authorXander()
