@@ -25,7 +25,7 @@ while attemps < 150:
         attemps += 1
         continue
 
-author = "Xander"
+author = "SOSph"
 
 
 def prints(start_color, end_color, text):
