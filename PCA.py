@@ -79,7 +79,7 @@ def main():
     print("\n")                            
                                                                  
     while True:
-        cnc = input(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"root"+Color.LB+"@"+Color.LG+"SOSph"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+        cnc = input(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"root"+Color.LB+"@"+Color.LG+"SOSp"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
         if "HTTP-REQ" in cnc:
             try:
                 url = cnc.split()[1]
